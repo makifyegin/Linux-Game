@@ -1,18 +1,24 @@
-# rust-new-project-template
-A good starting point for a new Rust project
+# CLI Game for User and Group Management
 
-## Demo actions
+This is a command-line interface (CLI) game written in Rust that allows you to manage users and groups on a Linux-based system. The game includes commands to create and delete users, create groups, and add users to groups.
 
-* A.  Create a Repo with a Template
+## Features
 
-* B.  Enabling dot files:  Settings, Codespaces, install
+- Create a new user
+- Delete an existing user
+- Create a new group
+- Add a user to a group
 
-* C. Configure Codespaces and .devcontainer
+## Prerequisites
 
-* D. Configure and Run Copilot X
+- Rust (1.60.0 or later)
+- A Linux-based system with `useradd`, `userdel`, `groupadd`, and `usermod` commands available
+- `sudo` privileges to execute user and group management commands
 
-* E. Configure and Run GitHub Copilot CLI:  https://www.npmjs.com/package/@githubnext/github-copilot-cli
+## Installation
 
-## References
+1. Clone the repository:
 
-* [rust-cli-template](https://github.com/kbknapp/rust-cli-template)
+   ```sh
+   git clone https://github.com/yourusername/cli_game.git
+   cd cli_game
